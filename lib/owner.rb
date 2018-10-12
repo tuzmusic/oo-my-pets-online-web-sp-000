@@ -45,11 +45,11 @@ class Owner
 
  def sell_pets
    @pets.each { |species, pets|
-     binding.pry
+    #  binding.pry
      pets.each { |pet|
-       binding.pry
+      #  binding.pry
        pet.mood = "nervous"
-       binding.pry
+      #  binding.pry
      }
    }
   #  can sell all its pets, which make them nervous
