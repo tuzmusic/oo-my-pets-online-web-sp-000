@@ -50,15 +50,14 @@ class Owner
      }
      pets.clear
    }
-  #  can sell all its pets, which make them nervous
  end
 
  def list_pets
-  #  can list off its pets
+   puts "I have #{pets[:fish].count} fish, [:dogs].count dog(s), and [:cats].count cat(s)."
  end
+
+
   # Class methods
-
-
   def self.all
     @@all
   end
